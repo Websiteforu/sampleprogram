@@ -1,0 +1,118 @@
+{
+    box-sizing: border-box;
+    font-size: 18px;
+    margin-bottom:0px;
+    padding-bottom: 0px;
+}
+header{
+       
+       background-image:url(E:\images/flywheel.jpg);
+
+       background-size: cover;
+       padding: 20px;
+       border: 20px solid white;
+}
+h1{
+
+   text-align:center;
+   font-size: 150%;
+   color:#FFFFFF;
+   text-transform: uppercase;
+   margin:50px;
+}
+nav a{
+      text-align: center;
+      color:#000000;
+      background:#ffffff;
+      opacity:0.3;
+      display: inline-block;
+      width:10%;
+      margin-right:9%;
+      text-decoration: none;
+      border-style:none;
+      padding:20px;
+      border-radius:5px;
+}
+nav a:hover{
+    opacity: 1;
+}
+.active{
+    opacity:1;
+}
+.right{
+    background:grey;
+}
+h2{
+    color:#621A80;
+    text-transform:uppercase;
+}
+nav{
+    text-align: center;
+}
+img{
+    width:70% !important;
+    margin:2px;
+    display:block;
+    border:1px solid black;
+    box-shadow: 0px 0px 15px black;
+}
+.left{
+    position:relative;
+    width:18%;
+    background:#747A03;
+    padding:0px 0px 0px 3%;
+    float:left;
+    min-height:100vh;
+}
+aside a {
+    margin:25px;
+    padding:4px;
+}
+.right{
+    margin:0%;
+    padding:20px;
+    float:right;
+    width:75%;
+    display: inline-block;
+    background: white;
+    position:relative;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-size: 25px;
+    color:black;
+}
+table{
+    margin:30px 0px 0px 10%;
+}
+table tr th{
+    color:white;
+    background: #8FA560;
+    padding:12px;
+    border-radius:3px 3px 0px 0px;
+    border-bottom:4px solid #AAE06B;
+    box-shadow: 0px 0px 5px #8FA560;
+}
+table tr th:first-child{
+    text-align: left;
+}
+table tr td{
+    background: #d6ecc8;
+    border-radius: 2px;
+    padding:10px;
+    color: grey;
+    font-family: inherit;
+    text-align: center;
+    opacity:0.8;
+    box-shadow: 0px 0px 6px #d6ecc8;
+}
+table tr td:first-child{
+    text-align: left;
+}
+table tr td:hover{
+    opacity:0.8;
+    color:darkseagreen;
+}
+    
